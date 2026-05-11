@@ -8,3 +8,4 @@ modification depuis branche A
 modification depuis branche B
 page de contact ajoutee
 version 1.0-mai2026
+correction bug urgent v1.0.1
