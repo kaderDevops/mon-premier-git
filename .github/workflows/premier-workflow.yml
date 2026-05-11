@@ -1,0 +1,19 @@
+name: Mon Premier Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  mon-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Dire bonjour
+        run: echo "Bonjour depuis GitHub Actions!"
+
+      - name: Afficher la date
+        run: date
